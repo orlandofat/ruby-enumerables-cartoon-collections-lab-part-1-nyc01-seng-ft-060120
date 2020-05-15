@@ -15,6 +15,6 @@ def list_dwarves(array)
   dwarves = ["Dopey", "Grumpy", "Bashful"]
   
   dwarves.each_with_index do |dwarve, i|
-     puts "#{i}#{dwarve}" 
+     puts "#{i+1}#{dwarve}" 
   end
 end
